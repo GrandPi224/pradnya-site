@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRADNYA - Strategic Initiative</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .chat-button {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: #ff7e67;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+        
+        .chat-button:hover {
+            background-color: #ff5a5f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .poster {
+            width: 90%;
+            max-width: 600px;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            padding-bottom: 20px;
+            position: relative;
+        }
+        
+        .header {
+            padding: 30px 25px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin: 0;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        
+        .content {
+            padding: 25px;
+        }
+        
+        .discovery-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            backdrop-filter: blur(5px);
+            border-left: 5px solid #ff7e67;
+            transition: all 0.3s ease;
+        }
+        
+        .discovery-item:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            margin-top: 0;
+            font-size: 24px;
+            font-weight: 600;
+            color: #ffeb3b;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .stat {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            padding: 15px;
+            width: 28%;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 0;
+            color: #ffeb3b;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+            margin: 5px 0 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 0 25px;
+            font-size: 14px;
+            opacity: 0.7;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#chat/dm/p9C8C8AAAAE" class="chat-button" target="_blank" style="right: 105px;">CHAT</a>
+    <a href="https://claude.ai/chat/4d023a3e-f141-4b0b-863f-86046ef16ff2" class="chat-button" target="_blank" style="background-color: #6a11cb;">CLAUDE</a>
+    
+    <div class="poster">
+        <div class="header">
+            <h1>PRADNYA</h1>
+        </div>
+        
+        <div class="content">
+            <div class="discovery-item">
+                <h2>1. Discovery</h2>
+                <p>Unveiling insights through comprehensive research and strategic analysis. Building foundations for innovation through methodical exploration of concepts, markets, and opportunities.</p>
+            </div>
+            
+            <div class="discovery-item">
+                <h2>2. te-sample.ipynb</h2>
+                <p><a href="https://colab.research.google.com/drive/1jzAJ9v-klZXSyGWaY9fZxD_Jy5yb3dsG?usp=sharing#scrollTo=d5tnkmt88EBJ" target="_blank" style="color: #ffeb3b; text-decoration: underline;">Open Jupyter Notebook in Google Colab</a></p>
+            </div>
+            
+            <div class="discovery-item">
+                <h2>3. Trading Economics</h2>
+                <p><a href="https://tradingeconomics.com/" target="_blank" style="color: #ffeb3b; text-decoration: underline;">Access Economic Data & Analytics</a></p>
+            </div>
+            
+            <div class="discovery-item">
+                <h2>4. Covered Writes</h2>
+                <p><a href="https://www.optionseducation.org/unauthorized?ReturnUrl=%2Ftoolsoptionquotes%2Fpnl-calculator" target="_blank" style="color: #ffeb3b; text-decoration: underline;">Options Strategy Calculator</a></p>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <p class="stat-number">94%</p>
+                    <p class="stat-label">ACCURACY</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-number">86%</p>
+                    <p class="stat-label">EFFICIENCY</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-number">78%</p>
+                    <p class="stat-label">IMPLEMENTATION</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            &copy; 2025 · Strategic Initiative
+        </div>
+    </div>
+</body>
+</html>
